@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+
+int a,b,c,sum;
+
+printf("enter three positive integer number : \n");
+scanf("%d%d%d", &a, &b, &c);
+
+sum = a + b + c;
+
+if(a>0 && b>0)
+    printf("%d is the total sum", sum);
+    else
+        printf("\n please enter a positive number");
+
+return 0;
+}
